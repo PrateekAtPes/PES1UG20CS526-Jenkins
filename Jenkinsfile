@@ -10,7 +10,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh "/var/jenkins_home/workspace/PES1UG20CS526-1/main/hello_exec"
-                ech 'Testing stage completed
+                echo 'Testing stage completed'
             }
         }
     }
