@@ -7,10 +7,10 @@ pipeline {
                 echo 'Build stage completed'
             }
         }
-        stage('Test) {
+        stage('Test {
             steps {
-                sh "/var/jenkins_home/workspace/PES1UG20CS526-1/main/hello_exec"
-                echo 'Testing stage completed'
+                sh "/varjenkins_home/workspace/PES1UG20CS526-1/main/hello_exec"
+                ech 'Testing stage completed'
             }
         }
     }
